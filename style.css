@@ -1,0 +1,220 @@
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
+@font-face {font-family: "COCOGOOSE"; src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); }
+
+/*
+darker-color: #272a31
+red: #ec5242
+grey: #d3d3d3
+*/
+body {
+  margin: 0;
+  padding: 0;
+  background: #d3d3d3;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*===== Navbar =====*/
+.navbar-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.navbar-menu-icon {
+  font-size: 40px;
+  margin: 20px 0  20px 40px;
+  background: transparent;
+  color: #272a31;
+}
+
+.navbar-social-icons {
+  display: flex;
+  justify-content: flex-end;
+  background: #272a31;
+  color: #fff;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-uList-1,
+.navbar-uList-2 {
+  display: flex;
+  list-style: none;
+  margin: 5px 30px 5px 0;
+}
+
+.navbar-uList-1 li {
+  padding-left: 15px;
+}
+
+.navbar-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  color: #272a31;
+  font-size: 14px;
+  border-bottom: 1px solid #abaeb3;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: flex-start;
+  margin: 10px 0 10px 20px;
+  position: relative;
+}
+
+.navbar-logo i {
+  padding: 0;
+  position: absolute;
+  align-self: flex-end;
+  margin-bottom: 5.5px;
+  right: 3px;
+  font-size: 18px;
+  color: #272a31;
+}
+
+.bohemianFest {
+  margin: 0;
+  margin-left: 5px;
+  font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
+  color: #ec5242;
+  font-size: 15px;
+}
+
+.festival-w {
+  padding-left: 3px;
+}
+
+.navbar-uList-2 li {
+  padding-left: 40px;
+}
+
+/*===== Intro Section =====*/
+.intro-section {
+  color: #272a31;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.intro-bigHeading {
+  margin: 30px 20px 10px 20px;
+  font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
+  font-size: 39px;
+  color: #787a7d;
+  line-height: 45px;
+}
+
+.intro-big-bohemian {
+  text-transform: uppercase;
+  color: #ec5242;
+}
+
+.intro-description {
+  background-image: url(images/theatre-2.png);
+  background-color: #272a31;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+
+.intro-description p {
+  margin: 20px;
+  padding: 15px;
+  text-align: justify;
+  line-height: 23px;
+  color: #fff;
+  border: 2px solid #787a7d;
+}
+
+.intro-dateHeading {
+  color: #fff;
+  font-size: 25px;
+  margin: 60px 20px 5px 20px;
+  font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
+}
+
+.intro-date-place p {
+  border: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+/*===== Program Section =====*/
+.program-container {
+  background: #272a31;
+  padding: 20px 0;
+}
+
+.section-h2 {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 0 auto;
+  margin-bottom: 8px;
+  border: 1px solid red;
+}
+
+.program-h2-hr {
+  width: 40px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.program-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid red;
+  margin: 10px 20px;
+  padding: 10px 25px;
+}
+
+.program-icon {
+  border: 1px solid white;
+}
+
+.program-h3 {
+  border: 1px solid white;
+}
+
+.program-item p {
+  border: 1px solid yellow;
+  width: 250px;
+}
+
+.program-btn {
+  background: #ec5242;
+  color: #fff;
+  border: none;
+}
+
+
+
+
+/* Media query */
+@media (min-width: 100px) and (max-width: 767px) {
+  .navbar-social-icons,
+  .navbar-logo-container {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-menu-icon {
+    display: none;
+  }
+  
+  .intro-description {
+    height: 450px;
+  }
+}
