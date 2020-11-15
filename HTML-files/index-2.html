@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +8,40 @@
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
   <link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet"
-  type="text/css" />
+    type="text/css" />
   <script src="https://kit.fontawesome.com/2bdc450678.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <header>
-    <nav class="navbar-container">
-      <i class="navbar-menu-icon fas fa-bars"></i>
-      <div class="navbar-social-icons">
-        <ul class="navbar-uList-1">
-          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#">English</a></li>
-          <li><a href="#">My Page</a></li>
-          <li><a href="#">Logout</a></li>
-        </ul>
+    <nav>
+      <div class="navbar-mobile">
+        <a href="#"><i class="navbar-menu-icon fas fa-bars"></i></a>
       </div>
-      <div class="navbar-logo-container">
-        <a class="navbar-logo" href="#">
-          <h6 class="bohemianFest"><span class="bohemian-w">Bohemian</span><br><span class="festival-w">Festival</span>
-          </h6>
-          <i class="fas fa-microphone-alt"></i>
-        </a>
-        <ul class="navbar-uList-2">
-          <li class="navbar-about"><a href="#">About</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Sponsors</a></li>
-          <li><a href="#" class="navbar-ticket">Tickets</a></li>
-        </ul>
+      <div class="navbar-container">
+        <div class="navbar-social-icons">
+          <ul class="navbar-uList-1">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </div>
+        <div class="navbar-logo-container">
+          <a class="navbar-logo" href="#" id="logo-link">
+            <h6 class="bohemianFest"><span class="bohemian-w">Bohemian</span><br><span
+                class="festival-w">Festival</span>
+            </h6>
+            <i class="fas fa-microphone-alt"></i>
+          </a>
+          <ul class="navbar-uList-2">
+            <li class="navbar-about"><a href="index-1.html" target="_blank">Main</a></li>
+            <li class="navbar-li-2"><a href="#contact-link">Contact</a></li>
+            <li class="navbar-li-2"><a href="#feat-link">Featured Artists</a></li>
+            <li><a href="#" class="navbar-ticket" target="_blank">Tickets</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
@@ -42,14 +49,15 @@
   <main class="mainContainer">
     <!--========= Intro-Description Section =========-->
     <section class="intro-section">
-      <h1 class="intro-bigHeading"><span class="intro-big-bohemian">Bohemian Festival</span><br>2021 Edition</h1>
       <div class="about-description">
-        <p class="intro-para">One of the most important music celebrations for independent artists and accoustic
-          interpreters is going to take place in December next year, in Ireland.<br>
+        <h1 class="intro-bigHeading"><span class="intro-big-bohemian">Bohemian Festival</span><br>2021 Edition</h1>
+        <p class="intro-para about-para">Bohemian Festival brings together artists with diverse backgrounds and fields,
+          they all have one thing in common: the love and passion for music.<br>In this space they are able to share with the public
+          some aspects of their careers, ups and downs, and what it is to be a musician nowadays.<br>For this occasion we are
+          setting a Q&A session with the artists, more details coming soon!
         </p>
         <div class="intro-contact">
-          <!-- <h4 class="intro-dateHeading">December 12th, 2021</h4> -->
-          <p class="intro-contact-para">
+          <p class="intro-contact-para" id="contact-link">
             Please feel free to contact us per Email for any further questions about Bohemian Festival 2021!<br>
             <a class="contact-email" href="#">bohemianfestival2021@bf.com</a>
           </p>
@@ -58,49 +66,56 @@
     </section>
     <!--========= Featured Artists Videos Section =========-->
     <section class="featured-artists-container font-lato">
-      <h2 class="section-h2 feat-art-h2">See Some Performances of Our Featured Artists</h2>
+      <h2 class="section-h2 feat-art-h2" id="feat-link">Featured Artists</h2>
       <hr class="program-h2-hr">
-      <div class="feat-art-col">
+      <div class="feat-art-col feat-about-col">
         <div class="featured-video-item">
-          <iframe class="feat-video" width="560" height="315" src="https://www.youtube.com/embed/M2SbH6tFLOs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="feat-video" width="560" height="315" src="https://www.youtube.com/embed/M2SbH6tFLOs"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
           <div class="feat-video-text">
             <h4 class="feat-art-h5">Damien Rice</h5>
-            <p class="feat-art-description">Description or the artist</p>
+              <p class="feat-art-description">"Colour Me In"</p>
           </div>
         </div>
         <div class="featured-video-item">
-          <iframe class="feat-video" width="560" height="315" src="https://www.youtube.com/embed/M2SbH6tFLOs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="feat-video" width="560" height="315" src="https://www.youtube.com/embed/YcqyC9eeOmI" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div class="feat-video-text">
-            <h4 class="feat-art-h5">Damien Rice</h5>
-            <p class="feat-art-description">Description or the artist</p>
+            <h4 class="feat-art-h5">Alice Phoebe Lou</h5>
+              <p class="feat-art-description">"Something Holy"</p>
           </div>
         </div>
         <div class="featured-video-item">
-          <iframe class="feat-video" width="560" height="315" src="https://www.youtube.com/embed/M2SbH6tFLOs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="feat-video" width="560" height="315" src="https://www.youtube.com/embed/gsSBNNjhGJY" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div class="feat-video-text">
-            <h4 class="feat-art-h5">Damien Rice</h5>
-            <p class="feat-art-description">Description or the artist</p>
+            <h4 class="feat-art-h5">Tori Amos</h5>
+              <p class="feat-art-description">"Reindeer King"</p>
           </div>
         </div>
         <div class="featured-video-item">
-          <iframe class="feat-video" width="560" height="315" src="https://www.youtube.com/embed/M2SbH6tFLOs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="feat-video" width="560" height="315" src="https://www.youtube.com/embed/M-YUPKbZsXM" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div class="feat-video-text">
-            <h4 class="feat-art-h5">Damien Rice</h5>
-            <p class="feat-art-description">Description or the artist</p>
+            <h4 class="feat-art-h5">Cantus Domus</h5>
+              <p class="feat-art-description">"Clean Eyes" Feat. SYML</p>
           </div>
         </div>
         <div class="featured-video-item">
-          <iframe class="feat-video" width="560" height="315" src="https://www.youtube.com/embed/M2SbH6tFLOs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="feat-video" width="560" height="315" src="https://www.youtube.com/embed/UwaBoX97PbQ" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div class="feat-video-text">
-            <h4 class="feat-art-h5">Damien Rice</h5>
-            <p class="feat-art-description">Description or the artist</p>
+            <h4 class="feat-art-h5">Lisa Hannigan</h5>
+              <p class="feat-art-description">"Undertow" Feat. Loah</p>
           </div>
         </div>
         <div class="featured-video-item">
-          <iframe class="feat-video" width="560" height="315" src="https://www.youtube.com/embed/M2SbH6tFLOs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="feat-video" width="560" height="315" src="https://www.youtube.com/embed/wiUH6ja2hKQ" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div class="feat-video-text">
-            <h4 class="feat-art-h5">Damien Rice</h5>
-            <p class="feat-art-description">Description or the artist</p>
+            <h4 class="feat-art-h5">Alanis Morissette</h5>
+              <p class="feat-art-description">"Losing The Plot"</p>
           </div>
         </div>
       </div>
@@ -108,14 +123,15 @@
   </main>
   <footer class="footer-container font-lato footer-about">
     <div class="foot-cont">
-      <a class="footer-logo" href="#">
+      <a class="footer-logo" href="#logo-link">
         <span class="footer-bf">BF</span>
         <h6 class="bohemianFest"><span class="bohemian-w footer-bohemian">Bohemian</span><br><span
             class="festival-w footer-festival">Festival</span></h6>
       </a>
-      <p>2020 Bohemian Festival. <br>Rights Reserved</p>
+      <p class="footer-para">2020 Bohemian Festival. <br>Rights Reserved</p>
     </div>
   </footer>
-  
+
 </body>
+
 </html>

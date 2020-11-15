@@ -14,29 +14,35 @@
 
 <body>
   <header>
-    <nav class="navbar-container">
-      <i class="navbar-menu-icon fas fa-bars"></i>
-      <div class="navbar-social-icons">
-        <ul class="navbar-uList-1">
-          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#">English</a></li>
-          <li><a href="#">My Page</a></li>
-          <li><a href="#">Logout</a></li>
-        </ul>
+    <nav>
+      <div class="navbar-mobile">
+        <a href="#"><i class="navbar-menu-icon fas fa-bars"></i></a>
       </div>
-      <div class="navbar-logo-container">
-        <a class="navbar-logo" href="#">
-          <h6 class="bohemianFest"><span class="bohemian-w">Bohemian</span><br><span class="festival-w">Festival</span>
-          </h6>
-          <i class="fas fa-microphone-alt"></i>
-        </a>
-        <ul class="navbar-uList-2">
-          <li class="navbar-about"><a href="#">About</a></li>
-          <li><a href="#">Program</a></li>
-          <li><a href="#">Sponsors</a></li>
-          <li><a href="#" class="navbar-ticket">Tickets</a></li>
-        </ul>
+      <div class="navbar-container">
+        <div class="navbar-social-icons">
+          <ul class="navbar-uList-1">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </div>
+        <div class="navbar-logo-container">
+          <a class="navbar-logo" href="#" id="logo-link">
+            <h6 class="bohemianFest"><span class="bohemian-w">Bohemian</span><br><span
+                class="festival-w">Festival</span>
+            </h6>
+            <i class="fas fa-microphone-alt"></i>
+          </a>
+          <ul class="navbar-uList-2">
+            <li class="navbar-about"><a href="index-2.html" target="_blank">About</a></li>
+            <li class="navbar-li-2"><a href="#program-link">Program</a></li>
+            <li class="navbar-li-2"><a href="#feat-link">Featured Artists</a></li>
+            <li class="navbar-li-2"><a href="#sponsors-link">Sponsors</a></li>
+            <li><a href="#" class="navbar-ticket" target="_blank">Tickets</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
@@ -44,132 +50,159 @@
   <main class="mainContainer">
     <!--========= Intro-Description Section =========-->
     <section class="intro-section">
-      <h1 class="intro-bigHeading"><span class="intro-big-bohemian">Bohemian Festival</span><br>2021 Edition</h1>
       <div class="intro-description">
+        <h1 class="intro-bigHeading"><span class="intro-big-bohemian">Bohemian Festival</span><br>2021 Edition</h1>
         <p class="intro-para">One of the most important music celebrations for independent artists and accoustic
-          interpreters is going to take place in December next year, in Ireland.<br>
+          interpreters is going to take place in July next year, in Ireland.
         </p>
         <div class="intro-date-place">
-          <h4 class="intro-dateHeading">December 12th, 2021</h4>
+          <h4 class="intro-dateHeading">July 16th & 17th, 2021</h4>
           <p class="intro-place">@ <a href="https://www.abbeytheatre.ie/">Abbey Theatre</a>, Dublin Ireland</p>
         </div>
       </div>
     </section>
     <!--========= Program Section =========-->
     <section class="program-container font-lato">
-      <h2 class="section-h2">Program</h2>
+      <h2 class="section-h2 program-h2" id="program-link">Program</h2>
       <hr class="program-h2-hr">
       <div class="program-container-2">
         <div class="program-item">
-          <i class="program-icon fas fa-microphone-alt"></i>
+          <i class="program-icon fab fa-creative-commons-by"></i>
           <h3 class="program-h3">Solo Artist</h3>
-          <p class="program-para">bsigfiueabfgiencfiwebibwcvibuvbvc
+          <p class="program-para"><span class="program-start">Starts July 16th @14:00hrs</span><br>
+            <span class="program-detail">Damien Rice will share his experience as a solo artist.
+              Live performance.</span>
           </p>
         </div>
         <div class="program-item">
-          <i class="program-icon fas fa-microphone-alt"></i>
+          <i class="program-icon fas fa-palette"></i>
           <h3 class="program-h3">Creative Process</h3>
-          <p class="program-para">bsigfiueabfgiencfiwebibwcvibuvbvc
+          <p class="program-para"><span class="program-start">Starts July 16th @17:00hrs</span><br>
+            <span class="program-detail">Alice Phoebe Lou is going to talk about the creative process
+            for a young musician. Live performance.</span>
           </p>
         </div>
         <div class="program-item">
-          <i class="program-icon fas fa-microphone-alt"></i>
-          <h3 class="program-h3">Team-work</h3>
-          <p class="program-para">bsigfiueabfgiencfiwebibwcvibuvbvc
+          <i class="program-icon fas fa-guitar"></i>
+          <h3 class="program-h3">Industry</h3>
+          <p class="program-para"><span class="program-start">Starts July 16th @20:00hrs</span><br>
+            <span class="program-detail">Tori Amos will share her impressions regarding a career in the
+            music industry. Live performance.</span>
           </p>
         </div>
         <div class="program-item">
-          <i class="program-icon fas fa-microphone-alt"></i>
-          <h3 class="program-h3">Artist Life Rewards</h3>
-          <p class="program-para">bsigfiueabfgiencfiwebibwcvibuvbvc
+          <i class="program-icon fas fa-compress-arrows-alt"></i>
+          <h3 class="program-h3">Collaboration</h3>
+          <p class="program-para"><span class="program-start">Starts July 17th @14:00hrs</span><br>
+            <span class="program-detail">Cantus Domus will tell their experience as musician collaborators.
+            Live performance.</span>
           </p>
         </div>
         <div class="program-item">
-          <i class="program-icon fas fa-microphone-alt"></i>
-          <h3 class="program-h3">Program</h3>
-          <p class="program-para">bsigfiueabfgiencfiwebibwcvibuvbvc
+          <i class="program-icon fas fa-venus"></i>
+          <h3 class="program-h3 program-lisa">Women in Music</h3>
+          <p class="program-para"><span class="program-start">Starts July 17th @17:00hrs</span><br>
+            <span class="program-detail">Lisa Hannigan will talk about the challenges for women in the industry.
+            Live performance.</span>
+          </p>
+        </div>
+        <div class="program-item">
+          <i class="program-icon fas fa-award"></i>
+          <h3 class="program-h3">Artist Life</h3>
+          <p class="program-para"><span class="program-start">Starts July 17th @20:00hrs</span><br>
+            <span class="program-detail">Alanis Morissette will share her impressions on a consolidated career
+            as an artist. Live performance.</span>
           </p>
         </div>
       </div>
-      <button class="program-btn" type="button">Tickets</button>
+      <a href="" class="btn-tickets" target="_blank"><button class="program-btn" type="button">Tickets</button></a>
     </section>
     <!--========= Featured Artists Section =========-->
     <section class="featured-artists-container font-lato">
-      <h2 class="section-h2 feat-art-h2">Featured Artists</h2>
+      <h2 class="section-h2 feat-art-h2" id="feat-link">Featured Artists</h2>
       <hr class="program-h2-hr">
       <div class="feat-art-col">
         <div class="featured-art-item">
           <div class="feat-art-imgBack"></div>
           <img class="feat-img" src="../images/damien-rice.png" alt="Damien Rice image">
           <div class="feat-text">
-            <h4 class="feat-art-h5">Damien Rice</h5>
-              <p class="feat-art-description">Description or the artist</p>
+            <h4 class="feat-art-h5">Damien Rice</h4>
+              <p class="feat-art-description">Irish singer-songwriter, musician, and record producer</p>
               <hr class="feat-art-hr">
-              <p class="feat-art-bio">Small bio of the artist</p>
+              <p class="feat-art-bio">Began his musical career in the early 90's, owns three studio albums,
+                and his live performances are truly acclaimed.
+              </p>
           </div>
         </div>
         <div class="featured-art-item">
           <div class="feat-art-imgBack"></div>
-          <img class="feat-img" src="../images/damien-rice.png" alt="Damien Rice image">
+          <img class="feat-img" src="../images/alice-phoebe-lou.jpg" alt="Alice Phoebe Lou image">
           <div class="feat-text">
-            <h4 class="feat-art-h5">Damien Rice</h5>
-              <p class="feat-art-description">Description or the artist</p>
+            <h4 class="feat-art-h5">Alice Phoebe Lou</h4>
+              <p class="feat-art-description">South African singer-songwriter</p>
               <hr class="feat-art-hr">
-              <p class="feat-art-bio">Small bio of the artist</p>
+              <p class="feat-art-bio">Began her career in 2013, owns three studio albums, and has caught the
+                attention of the critics because of her singing style.
+              </p>
           </div>
         </div>
         <div class="featured-art-item">
           <div class="feat-art-imgBack"></div>
-          <img class="feat-img" src="../images/damien-rice.png" alt="Damien Rice image">
+          <img class="feat-img" src="../images/tori-amos.png" alt="Tori Amos image">
           <div class="feat-text">
-            <h4 class="feat-art-h5">Damien Rice</h5>
-              <p class="feat-art-description">Description or the artist</p>
+            <h4 class="feat-art-h5">Tori Amos</h4>
+              <p class="feat-art-description">American singer-songwriter and pianist, with a mezzo-soprano vocal range</p>
               <hr class="feat-art-hr">
-              <p class="feat-art-bio">Small bio of the artist</p>
+              <p class="feat-art-bio">Began her career in the late 70's, and owns fifteen studio albums.</p>
           </div>
         </div>
         <div class="featured-art-item">
           <div class="feat-art-imgBack"></div>
-          <img class="feat-img" src="../images/damien-rice.png" alt="Damien Rice image">
+          <img class="feat-img" src="../images/cantus-domus.png" alt="Cantus Domus choir image">
           <div class="feat-text">
-            <h4 class="feat-art-h5">Damien Rice</h5>
-              <p class="feat-art-description">Description or the artist</p>
+            <h4 class="feat-art-h5">Cantus Domus</h4>
+              <p class="feat-art-description">Mixed Berlin choir, Director Ralf Sochaczewsky</p>
               <hr class="feat-art-hr">
-              <p class="feat-art-bio">Small bio of the artist</p>
+              <p class="feat-art-bio">Founded in 1996, has grown to over one hundred members, their musical work
+                is often performed with unusual dramaturgy.
+              </p>
           </div>
         </div>
         <div class="featured-art-item">
           <div class="feat-art-imgBack"></div>
-          <img class="feat-img" src="../images/damien-rice.png" alt="Damien Rice image">
+          <img class="feat-img" src="../images/lisa-hannigan.png" alt="Lisa Hannigan image">
           <div class="feat-text">
-            <h4 class="feat-art-h5">Damien Rice</h5>
-              <p class="feat-art-description">Description or the artist</p>
+            <h4 class="feat-art-h5">Lisa Hannigan</h4>
+              <p class="feat-art-description">Irish musician, singer, composer, and voice actress</p>
               <hr class="feat-art-hr">
-              <p class="feat-art-bio">Small bio of the artist</p>
+              <p class="feat-art-bio">Began her solo career in 2007, has released three studio albums,
+                and has received various award nominations in Ireland and in the U.S.
+              </p>
           </div>
         </div>
         <div class="featured-art-item">
           <div class="feat-art-imgBack"></div>
-          <img class="feat-img" src="../images/damien-rice.png" alt="Damien Rice image">
+          <img class="feat-img" src="../images/alanis.png" alt="Alanis Morissette image">
           <div class="feat-text">
-            <h4 class="feat-art-h5">Damien Rice</h5>
-              <p class="feat-art-description">Description or the artist</p>
+            <h4 class="feat-art-h5">Alanis Morissette</h4>
+              <p class="feat-art-description">Canadian-American singer, songwriter, record producer, and actress</p>
               <hr class="feat-art-hr">
-              <p class="feat-art-bio">Small bio of the artist</p>
+              <p class="feat-art-bio">Well known for her mezzo-soprano voice, she began her career in the early 90's, 
+                and owns ten studio albums.</p>
           </div>
         </div>
       </div>
     </section>
     <!--========= Sponsors Section =========-->
     <section class="sponsors-container font-lato">
-      <h2 class="section-h2">Sponsors</h2>
+      <h2 class="section-h2" id="sponsors-link">Sponsors</h2>
       <hr class="program-h2-hr">
-      <a href="https://www.dit.ie/conservatory/departments/keyboardstudies/"><img class="sponsor-img-1" src="../images/sponsors-1.png"
-        alt="Dublin Conservatory of Music and Drama Image Logo"></a>
+      <a href="https://www.dit.ie/conservatory/departments/keyboardstudies/" target="_blank"><img class="sponsor-img-1"
+          src="../images/sponsors-1.png" alt="Dublin Conservatory of Music and Drama Image Logo"></a>
       <div class="sponsors-flex">
-        <a href="https://www.guinness.com/en/"><img class="spons-img" src="../images/sponsors-2.svg"
-          alt="Guinness Logo"></a>
-        <a href="https://www.riam.ie/"><svg class="spons-img" xmlns="http://www.w3.org/2000/svg"
+        <a href="https://www.guinness.com/en/" target="_blank"><img class="spons-img" src="../images/sponsors-2.svg"
+            alt="Guinness Logo"></a>
+        <a href="https://www.riam.ie/" target="_blank"><svg class="spons-img" xmlns="http://www.w3.org/2000/svg"
             xmlns:serif="http://www.serif.com/" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1"
             clip-rule="evenodd" viewBox="100 100 484 284">
             <g fill="#fff" serif:id="Layer 1">
@@ -188,7 +221,7 @@
             </g>
           </svg>
         </a>
-        <a href="https://www.jamesonwhiskey.com/"><svg class="spons-img" width="150" height="36" viewBox="0 0 150 36"
+        <a href="https://www.jamesonwhiskey.com/" target="_blank"><svg class="spons-img" width="150" height="36" viewBox="0 0 150 36"
             xmlns="http://www.w3.org/2000/svg">
             <title>Jameson Whiskey</title>
             <path
@@ -200,12 +233,12 @@
   </main>
   <footer class="footer-container font-lato">
     <div class="foot-cont">
-      <a class="footer-logo" href="#">
+      <a class="footer-logo" href="#logo-link">
         <span class="footer-bf">BF</span>
         <h6 class="bohemianFest"><span class="bohemian-w footer-bohemian">Bohemian</span><br><span
             class="festival-w footer-festival">Festival</span></h6>
       </a>
-      <p>2020 Bohemian Festival. <br>Rights Reserved</p>
+      <p class="footer-para">2020 Bohemian Festival. <br>Rights Reserved</p>
     </div>
   </footer>
 </body>
