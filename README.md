@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone-HTML-CSS
+# Project: Capstone-Online Website
 
 > Online website for a concert built with HTML5 and CSS3
 
