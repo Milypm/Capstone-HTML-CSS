@@ -1,12 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
 
-@font-face {font-family: "COCOGOOSE"; src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); }
+@font-face { font-family: "COCOGOOSE"; src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); }
 
-/*
-darker-color: #272a31
-red: #ec5242
-grey: #d3d3d3
-*/
 body {
   margin: auto;
   padding: 0;
@@ -18,8 +13,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-/*===== Navbar =====*/
+/************* Navbar *************/
 .navbar-mobile {
   margin: 0 0 0 0;
   width: auto;
@@ -111,23 +105,17 @@ a {
   font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
-.navbar-about:hover,
-.navbar-li-2:hover {
-  color: #d3d3d3;
+.navbar-about {
+  font-weight: 700;
 }
 
 .navbar-li-2 {
   padding-left: 60px;
 }
 
-.navbar-about {
-  font-weight: 700;
-}
-
-.navbar-ticket:hover {
-  background: #ec5242;
-  color: #fff;
-  font-weight: 700;
+.navbar-about:hover,
+.navbar-li-2:hover {
+  color: #d3d3d3;
 }
 
 .navbar-ticket {
@@ -137,6 +125,12 @@ a {
   border-radius: 8px;
 }
 
+.navbar-ticket:hover {
+  background: #ec5242;
+  color: #fff;
+  font-weight: 700;
+}
+
 .mainContainer {
   min-width: 360px;
   max-width: 1450px;
@@ -144,7 +138,8 @@ a {
   padding: 0;
   width: 100%;
 }
-/*===== Intro Section =====*/
+
+/************** Intro Section **************/
 .intro-section {
   color: #272a31;
   font-family: "Lato", Arial, Helvetica, sans-serif;
@@ -155,8 +150,7 @@ a {
   font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
   font-size: 37px;
   color: #d3d3d3;
-  opacity: .6;
-  font-size: 35px;
+  opacity: 0.6;
   line-height: 45px;
   margin-top: 0;
 }
@@ -205,7 +199,7 @@ a {
 }
 
 .about-para {
-  text-align: center;  
+  text-align: center;
 }
 
 .intro-dateHeading {
@@ -240,7 +234,8 @@ a {
   font-weight: 600;
   text-decoration: underline;
 }
-/*===== Program Section =====*/
+
+/************** Program Section **************/
 .font-lato {
   font-family: "Lato", Arial, Helvetica, sans-serif;
 }
@@ -253,7 +248,7 @@ a {
 }
 
 .section-h2 {
-  width: fit-content;
+  width: auto;
   color: #fff;
   margin: 20px auto 13px;
 }
@@ -320,15 +315,11 @@ a {
 
 .program-start {
   font-size: 13px;
-  margin: 0
+  margin: 0;
 }
 
 .program-detail {
   margin-top: -8px;
-}
-
-.program-btn:hover {
-  opacity: .9;
 }
 
 .program-btn {
@@ -340,21 +331,23 @@ a {
   border-radius: 8px;
   padding: 15px 75px;
   cursor: pointer;
+  margin: 25px auto;
+}
+
+.program-btn:hover {
+  opacity: 0.9;
 }
 
 .btn-tickets {
   margin: 25px auto;
 }
-/*===== Featured Artists Section =====*/
+
+/************** Featured Artists Section **************/
 .featured-artists-container {
   display: flex;
   flex-direction: column;
   padding: 30px 0;
   background: #fff;
-}
-
-.select-tickets {
-  margin-top: 60px;
 }
 
 .feat-art-h2 {
@@ -435,7 +428,7 @@ a {
   width: 20px;
   margin: 5px 0;
   padding: 0;
-  border: .5px solid #d3d3d3;
+  border: 0.5px solid #d3d3d3;
 }
 
 .feat-art-bio {
@@ -444,7 +437,7 @@ a {
   font-size: 11px;
 }
 
-/*===== Sponsors Section =====*/
+/************** Sponsors Section **************/
 .sponsors-container {
   width: 100%;
   display: flex;
@@ -471,10 +464,10 @@ a {
   padding: 20px 10px 20px;
   margin: 0;
   color: #d3d3d3;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-/*===== Select Tickets Section =====*/
+/************** Select Tickets Section **************/
 .select-tickets {
   margin: 0 auto;
   padding-bottom: 30px;
@@ -493,7 +486,7 @@ a {
 .tickets-step {
   display: flex;
   flex-wrap: nowrap;
-  border: .5px solid #d3d3d3;
+  border: 0.5px solid #d3d3d3;
   margin: 0 50px 20px 50px;
   padding: 0 10px;
   font-size: 12px;
@@ -504,7 +497,7 @@ a {
 
 .ticket-step-red {
   color: #ec5242;
-  height: fit-content;
+  height: auto;
   margin-right: 5px;
   min-width: 47px;
   width: auto;
@@ -517,7 +510,7 @@ a {
 .ticket-step-black {
   display: flex;
   margin: 0;
-  padding: 0 auto;
+  padding: 0;
   height: auto;
 }
 
@@ -560,14 +553,14 @@ label {
 .tickets-map {
   margin: -15px 0 15px 10px;
   color: #ec5242;
-  font-weight: 600px;
   font-weight: bold;
 }
 
 .tickets-number {
   margin-top: 30px;
 }
-/*===== Footer Section =====*/
+
+/************** Footer Section **************/
 .footer-container {
   display: flex;
   background: #fff;
@@ -605,7 +598,7 @@ label {
 .footer-bf {
   box-sizing: border-box;
   border: 2px solid #272a31;
-  padding: .1em;
+  padding: 0.1em;
   margin: 15px auto auto auto;
   width: 30px;
 }
@@ -662,15 +655,7 @@ label {
   border-right: 1px solid #272a31;
 }
 
-
-
-
-
-
-
-
-
-/* Media queries */
+/************* Media queries *************/
 @media (min-width: 100px) and (max-width: 767px) {
   .navbar-social-icons,
   .navbar-logo-container,
@@ -679,7 +664,7 @@ label {
   }
 }
 
-@media (min-width: 768px) and (max-width: 5000px){
+@media (min-width: 768px) and (max-width: 5000px) {
   .navbar-mobile {
     display: none;
   }
@@ -699,7 +684,7 @@ label {
     margin: 20px 250px 20px 20px;
     font-size: 21px;
     line-height: 32px;
-  } 
+  }
 
   .about-para {
     margin: 10px 20px;
@@ -764,7 +749,7 @@ label {
     text-align: center;
     font-size: 13px;
   }
-  
+
   .program-start {
     font-size: 13px;
   }
@@ -772,13 +757,13 @@ label {
   .feat-art-col {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 10px;
-    margin: 0 25px
+    margin: 0 25px;
   }
 
   .feat-art-h5 {
     font-size: 18px;
   }
-  
+
   .feat-art-description {
     font-size: 15px;
   }
