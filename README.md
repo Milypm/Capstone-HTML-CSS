@@ -36,7 +36,6 @@ Contributions, issues, and feature requests are welcome!
 
 - [W3schools](https://www.w3schools.com/)
 - [stackoverflow](https://stackoverflow.com/)
-- etc
 
 ## Authors
 
