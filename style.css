@@ -8,11 +8,10 @@ red: #ec5242
 grey: #d3d3d3
 */
 body {
-  margin: 0;
+  margin: auto;
   padding: 0;
   background: #d3d3d3;
   box-sizing: border-box;
-  width: auto;
 }
 
 a {
@@ -22,9 +21,8 @@ a {
 
 /*===== Navbar =====*/
 .navbar-mobile {
-  margin: 0 0 40px 0;
+  margin: 0 0 0 0;
   width: auto;
-  padding-bottom: 10px;
 }
 
 .navbar-container {
@@ -98,11 +96,18 @@ a {
   margin-left: 5px;
   font-family: "COCOGOOSE", Arial, Helvetica, sans-serif;
   color: #ec5242;
-  font-size: 15px;
+}
+
+.bohemian-w {
+  font-size: 16px;
+  padding: 0;
 }
 
 .festival-w {
-  padding-left: 10px;
+  font-size: 15px;
+  padding: 0;
+  margin-top: -18px;
+  padding-left: 20px;
   font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
@@ -134,8 +139,8 @@ a {
 
 .mainContainer {
   min-width: 360px;
-  max-width: 1310px;
-  margin: 0;
+  max-width: 1450px;
+  margin: 0 auto;
   padding: 0;
   width: 100%;
 }
@@ -143,6 +148,7 @@ a {
 .intro-section {
   color: #272a31;
   font-family: "Lato", Arial, Helvetica, sans-serif;
+  margin-top: 50px;
 }
 
 .intro-bigHeading {
@@ -170,7 +176,7 @@ a {
   height: auto;
   background-repeat: no-repeat;
   padding: 40px 40px 60px 40px;
-  margin: -50px auto;
+  margin: -50px auto 0;
 }
 
 .about-description {
@@ -183,14 +189,14 @@ a {
   height: auto;
   background-repeat: no-repeat;
   padding: 40px 40px 60px 40px;
-  margin: -50px auto;
+  margin: -50px auto 0;
   text-align: center;
 }
 
 .intro-para {
   margin-top: 10px;
   padding: 15px;
-  text-align: justify;
+  text-align: left;
   line-height: 23px;
   color: #fff;
   border: 2px solid #787a7d;
@@ -213,7 +219,11 @@ a {
   padding: 0;
   margin: 3px 0 20px 0;
   color: #fff;
-  font-size: 17px;
+  font-size: 15px;
+}
+
+.intro-place a {
+  text-decoration: underline;
 }
 
 .intro-contact {
@@ -305,11 +315,11 @@ a {
   height: auto;
   padding: 0;
   margin: 0 0 0 5px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .program-start {
-  font-size: 11px;
+  font-size: 13px;
   margin: 0
 }
 
@@ -341,6 +351,10 @@ a {
   flex-direction: column;
   padding: 30px 0;
   background: #fff;
+}
+
+.select-tickets {
+  margin-top: 60px;
 }
 
 .feat-art-h2 {
@@ -460,12 +474,104 @@ a {
   opacity: .5;
 }
 
+/*===== Select Tickets Section =====*/
+.select-tickets {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.tickets-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  color: #272a31;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.tickets-step {
+  display: flex;
+  flex-wrap: nowrap;
+  border: .5px solid #d3d3d3;
+  margin: 0 50px 20px 50px;
+  padding: 0 10px;
+  font-size: 12px;
+  border-radius: 50px;
+  align-items: center;
+  width: auto;
+}
+
+.ticket-step-red {
+  color: #ec5242;
+  height: fit-content;
+  margin-right: 5px;
+  min-width: 47px;
+  width: auto;
+}
+
+.fa-arrow-right {
+  margin-right: 5px;
+}
+
+.ticket-step-black {
+  display: flex;
+  margin: 0;
+  padding: 0 auto;
+  height: auto;
+}
+
+.tickets-box {
+  border-collapse: collapse;
+  font-size: 13px;
+  margin: 5px 15px 15px 15px;
+  width: auto;
+  border: 2px dashed #272a31;
+}
+
+td {
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  padding: 10px;
+}
+
+.tickets-table-heading {
+  font-size: 13.5px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.table-heading-grey {
+  background: #d3d3d3;
+}
+
+label {
+  color: #ec5242;
+}
+
+.fa-arrow-down {
+  margin: 30px 0 0 0;
+  border: 1px solid;
+  padding: 6px 8px;
+  color: #fff;
+  background: #ec5242;
+}
+
+.tickets-map {
+  margin: -15px 0 15px 10px;
+  color: #ec5242;
+  font-weight: 600px;
+  font-weight: bold;
+}
+
+.tickets-number {
+  margin-top: 30px;
+}
 /*===== Footer Section =====*/
 .footer-container {
   display: flex;
   background: #fff;
   padding: 20px 0;
-  color: #000;
   min-width: 360px;
   max-width: 1450px;
   width: auto;
@@ -473,7 +579,8 @@ a {
 }
 
 .footer-about {
-  background: #d3d3d3;
+  background: #272a31;
+  color: #fff;
 }
 
 .foot-cont {
@@ -492,16 +599,25 @@ a {
 
 .footer-bf {
   box-sizing: border-box;
-  border: 2px solid #000;
-  border-radius: 50%;
-  padding: 2px 4px;
-  margin: auto;
+  border: 2px solid #272a31;
+
+  padding: .1em;
+  margin: 15px auto auto auto;
   width: 30px;
+}
+
+.footer-about-bf {
+  border: 2px solid #fff;
+}
+
+.festival-w-black,
+.bohemian-w-black {
+  color: #272a31;
 }
 
 .footer-bohemian,
 .footer-festival {
-  color: #000;
+  color: #fff;
   margin-left: -5px;
 }
 
@@ -556,7 +672,7 @@ a {
   } 
 
   .about-para {
-    margin: 10px auto;
+    margin: 10px 20px;
     padding: 15px;
     font-size: 21px;
     line-height: 32px;
@@ -578,7 +694,7 @@ a {
   .program-container-2 {
     flex-direction: row;
     justify-content: center;
-    margin: 4px 20px;
+    margin: 4px 45px;
   }
 
   .program-item {
@@ -646,7 +762,29 @@ a {
     padding: 30px 40px 20px;
   }
 
+  .select-tickets {
+    margin-top: 80px;
+  }
+
+  .tickets-step {
+    flex-direction: row;
+    font-size: 14px;
+  }
+
+  .tickets-box {
+    font-size: 15px;
+  }
+
+  .tickets-table-heading {
+    font-size: 15.5px;
+  }
+
   .footer-container {
     background: #d3d3d3;
+  }
+
+  .footer-about {
+    background: #272a31;
+    color: #fff;
   }
 }

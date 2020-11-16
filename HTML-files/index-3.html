@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+  <title>Tickets - Bohemian Festival</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet"
+    type="text/css" />
+  <script src="https://kit.fontawesome.com/2bdc450678.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="navbar-mobile">
+        <a href="#"><i class="navbar-menu-icon fas fa-bars"></i></a>
+      </div>
+      <div class="navbar-container">
+        <div class="navbar-social-icons">
+          <ul class="navbar-uList-1">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </div>
+        <div class="navbar-logo-container">
+          <a class="navbar-logo" href="#" id="logo-link">
+            <h6 class="bohemianFest"><span class="bohemian-w">Bohemian</span><br><span
+                class="festival-w">Festival</span>
+            </h6>
+          </a>
+          <ul class="navbar-uList-2">
+            <li class="navbar-about"><a href="index-2.html" target="_blank">About</a></li>
+            <li><a href="index-1.html" class="navbar-ticket" target="_blank">Main</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--=============== Main content ===============-->
+  <main class="mainContainer">
+    <!--========= Select Tickets Section =========-->
+    <section class="featured-artists-container select-tickets font-lato">
+      <h2 class="section-h2 feat-art-h2" id="feat-link">Select Tickets</h2>
+      <hr class="program-h2-hr">
+      <div class="tickets-container">
+        <div class="tickets-step">
+          <h5 class="ticket-step-red"><i class="fas fa-arrow-right"></i>STEP 1</h5>
+          <p class="ticket-step-black"> Please select the day(s) when you want to join the event</p>
+        </div>
+        <table class="tickets-box">
+          <div class="tickets-border-colors"></div>
+          <tr>
+            <td class="tickets-table-heading table-heading-grey">Ticket</td>
+            <td class="tickets-table-heading table-heading-grey" colspan="2">1-Day-Ticket</td>
+            <td class="tickets-table-heading table-heading-grey">2-Day-Ticket</td>
+          </tr>
+          <tr>
+            <td class="tickets-table-heading">Date</td>
+            <td class="tickets-table-heading">July 16th (Fri)</td>
+            <td class="tickets-table-heading">July 17th (Sat)</td>
+            <td class="tickets-table-heading">July 16th (Fri) & July 17th (Sat)</td>
+          </tr>
+          <tr>
+            <td class="tickets-table-heading">Normal</td>
+            <td class="tickets-td">
+              <label>€25.00<br><input type="checkbox"></label>
+            </td>
+            <td class="tickets-td">
+              <label>€25.00<br><input type="checkbox"></label>
+            </td>
+            <td class="tickets-td">
+              <label>€42.00<br><input type="checkbox"></label>
+            </td>
+          </tr>
+          <tr>
+            <td class="tickets-table-heading">Students</td>
+            <td class="tickets-td">
+              <label>€17.00<br><input type="checkbox"></label>
+            </td>
+            <td class="tickets-td">
+              <label>€17.00<br><input type="checkbox"></label>
+            </td>
+            <td class="tickets-td">
+              <label>€10.00<br><input type="checkbox"></label>
+            </td>
+          </tr>
+        </table>
+        <i class="fas fa-arrow-down"></i>
+        <h2 class="section-h2 feat-art-h2" id="feat-link">Select Your Seat(s)</h2>
+        <hr class="program-h2-hr">
+        <div class="tickets-step">
+          <h5 class="ticket-step-red"><i class="fas fa-arrow-right"></i>STEP 2</h5>
+          <p class="ticket-step-black">Please select your seat(s), you can see the venue's map below</p>
+        </div>
+        <a class="tickets-map" href="https://bordgaisenergytdeatre.ie/bord_gais/new-page/seating-plan" target="_blank">See Map</a>
+        <table class="tickets-box">
+          <tr>
+            <td class="tickets-table-heading table-heading-grey">STALLS</td>
+            <td class="tickets-table-heading table-heading-grey">CIRCLE</td>
+            <td class="tickets-table-heading table-heading-grey">UPPER CIRCLE</td>
+          </tr>
+          <tr>
+            <td>
+              <label>+€15.00<br><input type="checkbox"></label>
+            </td>
+            <td>
+              <label>+€10.00<br><input type="checkbox"></label>
+            </td>
+            <td>
+              <label>+€8.00<br><input type="checkbox"></label>
+            </td>
+          </tr>
+        </table>
+        <div class="tickets-step tickets-number">
+          <h5 class="ticket-step-red"><i class="fas fa-arrow-right"></i>STEP 3</h5>
+          <p class="ticket-step-black">Please select the number of tickets you need (up to 4 per person)</p>
+        </div>
+        <table class="tickets-box">
+          <tr>
+            <td>
+              <label>1<br><input type="checkbox"></label>
+            </td>
+            <td>
+              <label>2<br><input type="checkbox"></label>
+            </td>
+            <td>
+              <label>3<br><input type="checkbox"></label>
+            </td>
+            <td>
+              <label>4<br><input type="checkbox"></label>
+            </td>
+          </tr>
+        </table>
+        <a href="#" class="btn-tickets" target="_blank"><button class="program-btn" type="button">Payment</button></a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-container font-lato footer-about">
+    <div class="foot-cont">
+      <a class="footer-logo" href="#logo-link">
+        <span class="footer-bf footer-about-bf">BF</span>
+        <h6 class="bohemianFest"><span class="bohemian-w footer-bohemian">Bohemian</span><br><span
+            class="festival-w footer-festival">Festival</span></h6>
+      </a>
+      <p class="footer-para">2020 Bohemian Festival. <br>Rights Reserved</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
