@@ -476,7 +476,7 @@ a {
 
 /*===== Select Tickets Section =====*/
 .select-tickets {
-  margin: 0;
+  margin: 0 auto;
   padding-bottom: 30px;
 }
 
@@ -585,7 +585,8 @@ label {
 
 .foot-cont {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
   width: 100%;
 }
@@ -597,10 +598,13 @@ label {
   margin-right: 8px;
 }
 
+.footer-logo-rights {
+  display: flex;
+}
+
 .footer-bf {
   box-sizing: border-box;
   border: 2px solid #272a31;
-
   padding: .1em;
   margin: 15px auto auto auto;
   width: 30px;
@@ -632,6 +636,31 @@ label {
   font-size: 14px;
 }
 
+.footer-right {
+  border: 1px solid;
+}
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: -13px;
+  margin-left: 215px;
+  font-size: 12px;
+}
+
+.footer-li {
+  padding: 0 8px;
+  text-decoration: underline;
+}
+
+.foot-pipe {
+  border-right: 1px solid #fff;
+}
+
+.foot-pipe-b {
+  border-right: 1px solid #272a31;
+}
 
 
 
@@ -644,7 +673,8 @@ label {
 /* Media queries */
 @media (min-width: 100px) and (max-width: 767px) {
   .navbar-social-icons,
-  .navbar-logo-container {
+  .navbar-logo-container,
+  .footer-list {
     display: none;
   }
 }
