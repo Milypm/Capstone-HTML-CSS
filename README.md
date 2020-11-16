@@ -27,9 +27,25 @@ The project is fictional just to reach the established requirements, I don't pos
 
 [Live Demo](https://milypm.github.io/Capstone-HTML-CSS/)
 
+## Project presentation (Video)
+
+[Presentation](https://www.loom.com/share/7db6b02dbcb848748dd823c807a49f75)
+
+## Author
+
+👤 **Mily Puente**
+
+- GitHub: [Mily Puente M.](https://github.com/Milypm)
+- LinkedIn: [Mily Puente](https://linkedin.com/in/milypuentem)
+
+## Set Up
+
+You can download the code or clone the repository to your local system (click on the green "Code" button above to copy the https path).
+
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
+[Github's Issues Page](https://github.com/Milypm/Capstone-HTML-CSS/issues)
 
 ## Thanks to:
 
@@ -48,12 +64,6 @@ Contributions, issues, and feature requests are welcome!
 
 This project is [MIT](LICENSE) licensed.
 
-## Authors
-
-👤 **Mily Puente**
-
-- GitHub: [@bhandle](https://github.com/Milypm)
-- LinkedIn: [Mily Puente](https://linkedin.com/in/milypuentem)
 
 ## Show your support
 
