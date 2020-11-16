@@ -43,6 +43,10 @@ Contributions, issues, and feature requests are welcome!
 - [Youtube](https://www.youtube.com/)
 - And of course to the amazing artists on whom I based my project:
   Damien Rice, Alice Phoebe Lou, Tori Amos, Cantus Domus, Lisa Hannigan, and Alanis Morissette
+  
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
 
 ## Authors
 
